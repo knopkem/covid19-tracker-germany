@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Risikogebiete Deutschland</string>
+    <string name="url">https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0</string>
+    <string name="license"></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="refresh">Reload</string>
+    <string name="loading">Lade Karte...</string>
+    <string name="failed">Netzwerkfehler!</string>
+    <string name="failure">Verbindung fehlgeschlagen! Diese App benötigt eine Internetverbindung.</string>
+
+    <string name="info">Diese App bezieht die aktuellen Zahlen der Corona Infektionen in Deutschland von der offiziellen Seite des RKI (Robert Koch Institut).
+        \nUpdates werden stündlich automatisch nachgeladen.</string>
+
+    <string name="caption">\nFälle letzte 7 Tage/100.000 EW\nweiss: 0\nhellgelb: 0-25\ngelb: 25-50\norange: 25-50\nrot: 50-100\ndunkelrot: 50-500\n\n(RKI Landkreisdaten)\n</string>
+
+    <string name="disclaimer">Nachfolgend ein Verweis auf die offizielle Meldung des RKI:
+\n\nIn Einklang mit den internationalen Standards der WHO und des ECDC wertet das RKI alle labordiagnostischen Nachweise von SARS-CoV-2 unabhängig vom Vorhandensein oder der Ausprägung der klinischen Symptomatik als COVID-19-Fälle. Unter COVID-19-Fällen werden somit sowohl akute SARS-CoV-2-Infektionen als auch COVID-19-Erkrankungen zusammengefasst.
+Für die Gesamtzahl pro Bundesland/Landkreis werden die den Gesundheitsämtern nach Infektionsschutzgesetz gemeldeten Fälle verwendet, die dem RKI bis zum jeweiligen Tag um 0 Uhr übermittelt wurden.
+Für die Darstellung der neuübermittelten Fälle pro Tag wird das Meldedatum verwendet – das Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat.
+Zwischen der Meldung durch die Ärzte und Labore an das Gesundheitsamt und der Übermittlung der Fälle an die zuständigen Landesbehörden und das RKI können einige Tage vergehen (Melde- und Übermittlungsverzug). Jeden Tag werden dem RKI neue Fälle übermittelt, die am gleichen Tag oder bereits an früheren Tagen an das Gesundheitsamt gemeldet worden sind. Diese Fälle werden in der Grafik Neue COVID-19-Fälle/Tag dann bei dem jeweiligen Datum ergänzt.
+Der genaue Infektionszeitpunkt der gemeldeten Fälle kann in aller Regel nicht ermittelt werden. Das Meldedatum an das Gesundheitsamt spiegelt daher am besten den Zeitpunkt der Feststellung der Infektion (Diagnosedatum) und damit das aktuelle Infektionsgeschehen wider. Durch den Meldeverzug sind die Daten die letzten Tage in der Grafik  noch unvollständig und füllen sich mit den in den kommenden Tagen nachfolgend übermittelten Daten auf.  Aus dem Verlauf der übermittelten Daten allein lässt sich daher kein Trend zu den aktuell erfolgten Neuinfektionen ablesen.
+Das Erkrankungsdatum ist der Tag, an dem der Patient nach eigener Angabe bzw. nach Angabe des behandelnden Arztes mit klinischen Symptomen erkrankt ist. Das Erkrankungsdatum kann wegen der sehr zeitigen Labortests auch nach dem Meldedatum liegen. Liegt dem Gesundheitsamt das Erkrankungsdatum nicht vor, so wird alternativ das Meldedatum genutzt.
+Ausgehend vom Beginn der Erkrankung, bzw. wenn dieser nicht bekannt ist, vom Meldedatum, ergibt sich ein geschätztes Datum der Genesung für jeden Fall. Da im Einzelfall auch deutlich längere Erkrankungsverläufe möglich sind, bzw. die hier genutzten Informationen nicht bei allen Fällen dem RKI übermittelt werden, sind die so berechneten Daten nur grobe Schätzungen für die Anzahl der Genesenen und sollten daher auch nur unter Berücksichtigung dieser Limitationen verwendet werden.
+Für eine detailliertere Analyse der der COVID-19-Fälle verweisen wir auf den täglichen Lagebericht des RKI.
+\nQuelle: corona.rki.de
+    </string>
+
+    <string name="policy">Diese App speichert selbst keine personenbezogenen Daten (siehe auch DSVO im Play Store).
+\nEs werden allerdings Services der Esri Deutschland GmbH verwendet, auf deren DSVO hier verwiesen sei:
+\n\nDatenschutzerklärung
+\n\nDer Schutz personenbezogener Daten ist uns ein wichtiges Anliegen.
+Die Nutzung dieser Webseite ist grundsätzlich ohne Bekanntgabe personenbezogener Daten möglich. Wenn Sie diese Webseite besuchen, werden automatisch bestimmte personenbezogene Daten verarbeitet. Die Daten enthalten insbesondere Informationen wie z.B. Ihre IP-Adresse, Angaben zum Gerätetyp, die individuelle Identifikationsnummer des verwendeten Geräts, Browsertyp, geografischer Standort (z.B. Land oder Stadt), andere technische Informationen sowie das Datum und die Dauer des Besuches.
+Diese Informationen sind für die technische Übertragung der Webseiten und den sicheren Serverbetrieb zwingend erforderlich. Eine personalisierte Auswertung dieser Daten erfolgt nicht.
+Durch die Nutzung dieser Webseite erklären Sie sich mit der Verarbeitung der über Sie erhobenen Daten in der nachfolgend beschriebenen Art und Weise und zu dem benannten Zweck einverstanden.
+Im Zuge der Weiterentwicklung des Internets und der rechtlichen Rahmenbedingungen wird auch die Esri Deutschland GmbH ihre Datenschutzrichtlinien entsprechend anpassen. Änderungen werden wir auf dieser Seite rechtzeitig bekannt geben. Besuchen Sie daher diese Seite regelmäßig und informieren Sie sich über den aktuellen Stand.
+Bei Fragen, Anmerkungen sowie Auskunftsersuchen im Zusammenhang mit unserer Erklärung zum Datenschutz und der Verarbeitung Ihrer persönlichen Daten wenden Sie sich bitte an den Datenschutzbeauftragten. Ihre Fragen und Anregungen sind uns jederzeit willkommen.
+Die Esri Deutschland GmbH trifft technische und organisatorische Sicherheitsmaßnahmen, um Ihre personenbezogenen Daten gegen unbeabsichtigte oder unrechtmäßige Löschung, Veränderung oder Verlust, unberechtigte Weitergabe oder unberechtigten Zugriff zu schützen.
+
+\n\nNamen und Kontaktdaten des Verantwortlichen
+\n\nEsri Deutschland GmbH
+\nRingstraße 7
+\n85402 Kranzberg
+\nTelefon +49 89 207 005 1200
+\ninfo@esri.de
+\nhttps://www.esri.de
+
+\n\nGesetzliche Vertreter (Geschäftsführung)
+\n\nPeter Jäger, Jürgen Schomakers, Philipp Ullherr
+
+\n\nKontaktdaten des Datenschutzbeauftragten
+\n\nDatenschutzbeauftragter der Esri Deutschland GmbH
+\nRingstraße 7
+\n85402 Kranzberg
+\nTelefon: +49 89 207 005 1200
+\ndatenschutz@esri.de
+
+\n\nZweck und Rechtsgrundlage für die Verarbeitung
+\n\nZweck dieser Internetseite ist es, die Fallzahlen der Corona-Infektionen in Deutschland in Bundesländern und Landkreisen für die Öffentlichkeit mittels eines sogenannten Dashboards ergänzend zu den laufenden Kommunikationsmaßnahmen des Robert Koch-Institutes (RKI) und des Bundesministeriums für Gesundheit (BMG) zu unterstützen.
+Ihre Daten werden weder an Dritte verkauft noch anderweitig vermarktet.
+Empfänger oder Kategorien von Empfängern personenbezogener Daten
+Die Verarbeitung der bereitgestellten Daten erfolgt durch Dienste der Esri Inc., Redlands, Kalifornien nach den Ergänzenden Datenschutzbestimmungen für Esri Produkte und Services (Esri Products and Services Privacy Statement Supplement). https://www.esri.com/de-de/privacy/privacy-statements/privacy-supplement
+Übermittelung personenbezogener Daten in ein Drittland
+Eine Übermittlung an Drittstaaten (Länder außerhalb der Europäischen Union bzw. des EWR) erfolgt im Rahmen der erforderlichen Kommunikation unter Berücksichtigung eines Angemessenheitsbeschlusses der EU-Kommission.
+Eine Übermittelung findet an den Auftragsverarbeiter statt, der entsprechend Art. 28 DSGVO als Datenverarbeiter im Auftrag verpflichtet wird.
+
+\n\nDauer der Datenspeicherung
+\n\nAus Gründen der technischen Sicherheit, insbesondere zur Abwehr von Angriffsversuchen auf Webserver, werden die oben genannten Daten vorrübergehend gespeichert.
+
+\n\nHinweis auf Ihre Rechte
+\n\nSie haben das Recht, auf Anfrage Auskunft darüber zu erhalten, welche Art von personenbezogenen Daten über Sie gespeichert sind und für welchen Zweck sie verwendet werden. Außerdem haben Sie ein Recht auf Berichtigung oder Löschung Ihrer personenbezogenen Daten oder auf Einschränkung der Verarbeitung sowie ein Widerspruchsrechts gegen diese Verarbeitung. Der Widerspruch kann sich auch nur auf bestimmte Verarbeitung Ihrer personenbezogenen Daten, wie z.B. Direktwerbung, beziehen.
+Sie können der Verwendung Ihrer personenbezogenen Daten jederzeit schriftlich oder per E-Mail an info@esri.de widersprechen.
+Sie haben auch das Recht, die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Auf Ihren Wunsch hin werden wir diese an einen anderen Verantwortlichen übermitteln, soweit dies technisch machbar ist.
+Im Fall, dass Sie sich in Ihren Rechten nicht ausreichend durch unser Unternehmen unterstützt fühlen, besteht ein Beschwerderecht bei einer Aufsichtsbehörde.
+
+\n\nCookies
+\n\nCookies werden verwendet, um das Webseitenangebot zu optimieren und Ihre Nutzererfahrung zu verbessern. Cookies sind kleine Textdateien, die von Ihrem Browser gespeichert werden, wenn Sie Webseiten und Anwendungen verwenden. Cookies werden beim ersten Besuch einer Webseite von Ihrem Browser heruntergeladen. Beim erneuten Aufruf dieser Webseite mit demselben Endgerät werden das Cookie und die darin gespeicherten Informationen an die Webseite zurückgesendet, die sie erzeugt hat. Dadurch erkennt die Webseite, dass Sie mit diesem Internetbrowser bereits aufgerufen wurde, und optimiert ggf. den für Sie angezeigten Inhalt. Sie können festlegen, wie Webseite Cookies verwendet, indem Sie die Datenschutzeinstellungen in Ihrem Browser konfigurieren (weitere Informationen zu Cookie-Einstellungen finden Sie in der Hilfefunktion Ihres Browsers).
+
+\n\nVerantwortlich für diese Seite ist:
+\n\nEsri Deutschland GmbH
+\nRingstraße 7
+\n85402 Kranzberg
+\nTelefon: +49 89 207 005 1200
+\nTelefax: +49 89 207 005 1111
+\ninfo@esri.de
+\nesri.de
+
+\n\nVertretungsberechtigte Geschäftsführer:
+\n\nPeter Jäger, Jürgen Schomakers, Philipp Ullherr
+\n\nRegistergericht:
+\nAmtsgericht München
+\nRegisternummer: HRB 60836
+\nUSt.-IdNr. gemäß § 27a Umsatzsteuergesetz: DE 128 949 748
+
+\n\nInhalte dieser Website
+\n\nDie Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Die Esri Deutschland GmbH übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte. Für Unterbrechungen oder anderweitige Störungen aufgrund nicht fehlerfrei angelegter Dateien oder nicht fehlerfrei strukturierter Formate übernimmt die Esri Deutschland GmbH keine Gewähr. Um eine mögliche Gefährdung Ihres Systems, Ihrer Software oder Daten auszuschließen, empfehlen wir, heruntergeladene Dateien vor der Benutzung auf Computerviren zu überprüfen.
+
+\n\nVerfügbarkeit der Website
+\n\nDie Esri Deutschland GmbH wird sich bemühen, die eigenen Webseiten möglichst unterbrechungsfrei zum Abruf anzubieten. Trotz aller Sorgfalt können jedoch Ausfallzeiten nicht ausgeschlossen werden. Die Esri Deutschland GmbH behält sich das Recht vor, das Angebot jederzeit zu ändern oder einzustellen.
+
+\n\nUrheber- und Markenrechte
+\n\nAlle Inhalte und Strukturen dieser Website sind urheber- und leistungsschutzrechtlich geschützt. Die Veröffentlichung im World Wide Web oder in sonstigen Diensten des Internets bedeutet noch keine Einverständniserklärung für eine anderweitige Nutzung durch Dritte. Jede vom deutschen Urheberrecht nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung. Die Esri Deutschland GmbH erlaubt und begrüßt jedoch ausdrücklich das Zitieren ihrer Dokumente sowie das Setzen von Links auf ihre Website, solange kenntlich gemacht wird, dass es sich um Inhalte der Website der Esri Deutschland GmbH handelt und diese Inhalte nicht in Verbindung mit Inhalten Dritter gebracht werden, die den Interessen der Esri Deutschland GmbH widersprechen. Sollten Sie Fragen haben oder eine Genehmigung wünschen, senden Sie bitte eine E-Mail.
+Alle auf unseren Seiten genannten Marken und Produktbezeichnungen sind Eigentum des jeweiligen Inhabers, die wir uns nicht durch die bloße Nennung zu eigen machen wollen. Sollten Sie irgendwo auf den Seiten der Esri Deutschland GmbH eine unrechtmäßige Markenverwendung feststellen, bitten wir um einen formlosen Hinweis. Eine Liste von Warenzeichen, eingetragenen Warenzeichen oder Dienstleistungsmarken von Esri Inc. in den Vereinigten Staaten, der Europäischen Gemeinschaft und bestimmten anderen Ländern finden Sie hier. Das deutsche Esri Logo ist ein eingetragenes Warenzeichen der Esri Deutschland GmbH. Alle anderen genannten Namen sind Warenzeichen oder eingetragene Warenzeichen der jeweiligen Firmen.
+
+\n\nHinweis zur Problematik von externen Links
+\n\nDie Esri Deutschland GmbH ist als Inhaltsanbieter nach § 7 Abs.1 Telemediengesetz für die eigenen Inhalte, die sie zur Nutzung bereithält, nach den allgemeinen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (Links) auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. Die Esri Deutschland GmbH hat bei der erstmaligen Verknüpfung den fremden Inhalt überprüft und wiederholt dies in unregelmäßigen Abständen. Wegen der schnellen Wandelbarkeit des Internets kann die Esri Deutschland GmbH jedoch keine Garantie oder Haftung übernehmen. Wenn die Esri Deutschland GmbH feststellt oder von anderen darauf hingewiesen wird, dass ein konkretes Angebot, zu dem sie einen Link bereitgestellt hat, eine zivil- oder strafrechtliche Verantwortlichkeit auslöst, wird sie den Verweis auf dieses Angebot aufheben. Sollten Sie etwas Derartiges feststellen, bitten wir um einen formlosen Hinweis.
+    </string>
+</resources>
