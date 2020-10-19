@@ -1,6 +1,6 @@
 # covid19 tracker germany for android
 
-uses [arcgis-android-sdk](https://developers.arcgis.com/android/latest/) and data from RKI (Robert Koch Institut) to draw a map of Germany visualizing the covid19 spreading inside Germany.
+uses [arcgis-android-sdk](https://developers.arcgis.com/android/latest/) and data from [RKI](https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0) (Robert Koch Institut) to draw a map of Germany visualizing the covid19 spreading inside Germany.
 Travelling to red areas (both light and dark red) means you need to go into quarantine afterwards.
 Simimlar to https://corona.rki.de
 
