@@ -1,7 +1,7 @@
-# covid19 tracker germany
+# covid19 tracker germany for android
 
-uses arcgic android sdk and data from RKI (Robert Koch Institute) to draw a map of Germany to visualize covid spread data.
-travelling to red areas means you need to go into quarantine.
+uses arcgis-android-sdk and data from RKI (Robert Koch Institut) to draw a map of Germany visualizing the covid19 spreading inside Germany.
+Travelling to red areas (both light and dark red) means you need to go into quarantine afterwards.
 Simimlar to https://corona.rki.de
 
 ![image](https://github.com/knopkem/covid19-tracker-germany/blob/master/assets/images/Icon.png)
